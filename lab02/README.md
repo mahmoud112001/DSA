@@ -29,15 +29,25 @@ This folder contains two linked list implementations in JavaScript and a demo fi
   - Demonstrates both `SingleLinkedList` and `DoubleLinkedList`.
   - Shows how to chain `push()` calls, use insertion and deletion methods, and print the list state.
 
+- `fib.js`
+  - Fibonacci helper and demo file.
+  - Contains four implementations:
+    - `fibRecursive(n)` — simple recursive solution.
+    - `fibIterative(n)` — efficient O(n) iterative solution.
+    - `fibMemo(n)` — memoized recursion with caching.
+    - `fibSeries(n)` — returns the first `n` Fibonacci numbers as an array.
+  - Prints example results for `fib(10)` and a 15-term series.
+
 ## How to run
 
 From the `lab02` folder, run:
 
 ```bash
 node demo.js
+node fib.js
 ```
 
-This will print example operations for both list types, including push, unshift, pop, shift, insert, get, set, search, and delete.
+This will print example operations for both list types, including push, unshift, pop, shift, insert, get, set, search, and delete, plus Fibonacci results for recursive, iterative, memoized, and series implementations.
 
 ## Complexity summary
 
