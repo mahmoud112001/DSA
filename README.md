@@ -22,6 +22,7 @@
 - [🧪 Running the Code](#-running-the-code)
 - [📊 Complexity Summary](#-complexity-summary)
 - [💡 Key Takeaways](#-key-takeaways)
+- [🧰 Lab 02 — Linked Lists](#-lab-02-—-linked-lists)
 - [🙏 Credits](#-credits)
 
 ---
@@ -311,6 +312,25 @@ node findLongestSubstring.js
 [⬆️ Back to Top](#-table-of-contents)
 
 ---
+
+## 🧰 Lab 02 — Linked Lists
+
+This lab contains implementations and a demo for singly and doubly linked lists in JavaScript.
+
+- **Files:**
+  - [lab02/SingleLinkedList.js](lab02/SingleLinkedList.js) — Singly linked list implementation with methods: `push`, `pop`, `unshift`, `shift`, `get`, `set`, `insert`, `delete`, `search`, `print`. `push` and `unshift` return the list for chaining.
+  - [lab02/DoubleLinkedList.js](lab02/DoubleLinkedList.js) — Doubly linked list with `prev` and `next` pointers, supporting the same operations; `get` is optimized to search from the nearest end.
+  - [lab02/demo.js](lab02/demo.js) — Demonstrates usage of both lists with example operations and console output. Run `node lab02/demo.js` to see results.
+  - [lab02/fib.js](lab02/fib.js) — Implements Fibonacci examples: recursive, iterative, memoized recursion, and series generation.
+
+- **Full lab02 documentation:** [lab02/README.md](lab02/README.md)
+
+- **Complexity notes:**
+  - Most list operations are O(n) in time (searching, deleting by index).
+  - `push` and `unshift` are O(1).
+  - The doubly linked list's `get` is optimized to start from the head or tail depending on the index (average O(n/2)).
+
+[⬆️ Back to Top](#-table-of-contents)
 
 ## 🙏 Credits
 
