@@ -23,6 +23,7 @@
 - [📊 Complexity Summary](#-complexity-summary)
 - [💡 Key Takeaways](#-key-takeaways)
 - [🧰 Lab 02 — Linked Lists](#-lab-02-—-linked-lists)
+- [🧰 Lab 03](#-lab-03)
 - [🙏 Credits](#-credits)
 
 ---
@@ -329,6 +330,19 @@ This lab contains implementations and a demo for singly and doubly linked lists 
   - Most list operations are O(n) in time (searching, deleting by index).
   - `push` and `unshift` are O(1).
   - The doubly linked list's `get` is optimized to start from the head or tail depending on the index (average O(n/2)).
+
+## 🧰 Lab 03
+
+This lab demonstrates data structure implementations built on linked nodes, including:
+
+- `lab03/Node.js` — defines `ListNode` and `TreeNode` classes used by the stack, queue, and BST implementations.
+- `lab03/LinkedList.js` — implements:
+  - `Stack` with LIFO behavior using a singly linked list, supporting `push`, `pop`, `peek`, `isEmpty`, `size`, and `print`.
+  - `Queue` with FIFO behavior using a singly linked list, supporting `enqueue`, `dequeue`, `peek`, `isEmpty`, `size`, and `print`.
+- `lab03/BST.js` — implements a Binary Search Tree with both recursive (`insertR`) and iterative (`insertI`) insertion, plus an in-order traversal that prints sorted values.
+- `lab03/main.js` — demo script showing how to use `Stack`, `Queue`, and `BST`, including example operations and expected console output.
+
+This mirrors the way `lab02` explains linked list behavior and `lec01` explains algorithm patterns, but for tree and node-based data structures.
 
 [⬆️ Back to Top](#-table-of-contents)
 
