@@ -1,15 +1,4 @@
-/**
- * Selection Sort — O(n²) time, O(1) space
- * In-place sort; always performs exactly n*(n-1)/2 comparisons.
- * Not stable by default.
- */
 
-/**
- * Finds the index of the minimum value in arr[startIndex..end].
- * @param {number[]} arr
- * @param {number}   startIndex
- * @returns {number}
- */
 function indexOfMinimum(arr, startIndex) {
   let minIndex = startIndex;
 
@@ -20,12 +9,7 @@ function indexOfMinimum(arr, startIndex) {
   return minIndex;
 }
 
-/**
- * Sorts an array of numbers in-place using selection sort.
- * Returns the same array, sorted ascending.
- * @param {number[]} arr
- * @returns {number[]}
- */
+
 function selectionSort(arr) {
   for (let sortedBoundary = 0; sortedBoundary < arr.length - 1; sortedBoundary++) {
     const minIndex = indexOfMinimum(arr, sortedBoundary);
