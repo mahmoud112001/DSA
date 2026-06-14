@@ -14,6 +14,7 @@ export class BST {
     if (value < node.value)
       node.left  = this.#insertRec(node.left,  value);
     else if (value > node.value)
+      
       node.right = this.#insertRec(node.right, value);
     // duplicate → ignore
 
