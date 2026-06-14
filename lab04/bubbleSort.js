@@ -1,14 +1,4 @@
-/**
- * Bubble Sort — O(n²) time, O(1) space
- * Simple comparison sort; efficient only for nearly sorted data.
- */
 
-/**
- * Sorts an array of numbers in-place using bubble sort.
- * Returns the same array, sorted ascending.
- * @param {number[]} arr
- * @returns {number[]}
- */
 function bubbleSort(arr) {
   const length = arr.length;
 
