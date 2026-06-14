@@ -13,6 +13,7 @@ class SingleLinkedList {
     this.length = 0;
   }
 
+  
   // Add node to end
   push(val) {
     const node = new SLLNode(val);
