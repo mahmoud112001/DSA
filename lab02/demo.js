@@ -43,6 +43,7 @@ dll.print();                           // [10 <-> 20]
 dll.insert(1, 15);                     // [10 <-> 15 <-> 20]
 dll.print();
 
+
 console.log("get(1):", dll.get(1).val); // 15
 dll.set(1, 99);                         // [10 <-> 99 <-> 20]
 dll.print();
