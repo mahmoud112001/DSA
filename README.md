@@ -358,4 +358,5 @@ This mirrors the way `lab02` explains linked list behavior and `lec01` explains 
 
 ---
 
+
 *Lecture 01 · JavaScript Problem Solving Patterns · ITI ICC Program · 2026*
