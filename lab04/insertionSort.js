@@ -1,14 +1,4 @@
-/**
- * Insertion Sort — O(n²) time, O(1) space
- * Stable, in-place sort. Efficient for small or nearly sorted arrays.
- */
 
-/**
- * Sorts an array of numbers in-place using insertion sort.
- * Returns the same array, sorted ascending.
- * @param {number[]} arr
- * @returns {number[]}
- */
 function insertionSort(arr) {
   for (let unsortedStart = 1; unsortedStart < arr.length; unsortedStart++) {
     const elementToInsert = arr[unsortedStart];
