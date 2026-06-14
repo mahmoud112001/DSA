@@ -7,6 +7,7 @@ function sumZero(arr) {
     let sum = sortarr[left] + sortarr[right];
     if (sum === 0) {
 
+      
      console.log([sortarr[left], sortarr[right]]);
      return true;
     } else if (sum > 0) {
