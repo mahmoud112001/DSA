@@ -1,14 +1,4 @@
-/**
- * Merge Sort — O(n log n) time, O(n) space
- * Stable, divide-and-conquer sort.
- */
 
-/**
- * Merges two sorted sub-arrays into one sorted array.
- * @param {number[]} left
- * @param {number[]} right
- * @returns {number[]}
- */
 function mergeSortedHalves(left, right) {
   const merged = [];
   let leftIndex = 0;
@@ -27,11 +17,7 @@ function mergeSortedHalves(left, right) {
   return merged.concat(left.slice(leftIndex)).concat(right.slice(rightIndex));
 }
 
-/**
- * Sorts an array of numbers using merge sort.
- * @param {number[]} arr
- * @returns {number[]} A new sorted array (original is not mutated)
- */
+
 function mergeSort(arr) {
   if (arr.length <= 1) return arr;
 
