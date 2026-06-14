@@ -36,6 +36,7 @@ class DoubleLinkedList {
   // Add node to beginning
   unshift(val) {
     const node = new DLLNode(val);
+    
     if (!this.head) { this.head = node; this.tail = node; }
     else { node.next = this.head; this.head.prev = node; this.head = node; }
     this.length++;
