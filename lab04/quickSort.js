@@ -1,17 +1,4 @@
-/**
- * Quick Sort — O(n log n) average, O(n²) worst case, O(log n) space
- * In-place, divide-and-conquer sort using Lomuto partition scheme.
- */
 
-/**
- * Partitions arr[low..high] around a pivot (last element).
- * Elements smaller than pivot move left; larger move right.
- * Returns the final index of the pivot.
- * @param {number[]} arr
- * @param {number}   low
- * @param {number}   high
- * @returns {number} Pivot's final index
- */
 function partitionAroundPivot(arr, low, high) {
   const pivotValue = arr[high];
   let smallerElementBoundary = low - 1;
@@ -28,12 +15,6 @@ function partitionAroundPivot(arr, low, high) {
   return pivotIndex;
 }
 
-/**
- * Recursively sorts arr[low..high] in-place.
- * @param {number[]} arr
- * @param {number}   low
- * @param {number}   high
- */
 function quickSortRange(arr, low, high) {
   if (low >= high) return;
 
@@ -42,12 +23,7 @@ function quickSortRange(arr, low, high) {
   quickSortRange(arr, pivotIndex + 1, high);
 }
 
-/**
- * Sorts an array of numbers in-place using quick sort.
- * Returns the same array, sorted ascending.
- * @param {number[]} arr
- * @returns {number[]}
- */
+
 function quickSort(arr) {
   quickSortRange(arr, 0, arr.length - 1);
   return arr;
