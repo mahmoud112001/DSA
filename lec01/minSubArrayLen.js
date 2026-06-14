@@ -18,6 +18,7 @@ function minSubArrayLen(arr, target) {
       break;
     }
   }
+  
 
   return minLen === Infinity ? 0 : minLen;
 }
