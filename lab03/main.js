@@ -9,6 +9,7 @@ import { BST }    from "./BST.js";
 //  STACK demo
 // ══════════════════════════════════════════════════════════════════════════
 console.log("=== STACK ===");
+
 const stack = new Stack();
 
 stack.push(10);
