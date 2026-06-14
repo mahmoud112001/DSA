@@ -7,6 +7,7 @@ function CFC(array) {
   return counter;
 }
 
+
 function same(array1, array2) {
   //length check
   if (array1.length !== array2.length) {
