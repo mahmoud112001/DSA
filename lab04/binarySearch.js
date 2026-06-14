@@ -1,14 +1,5 @@
-/**
- * Binary Search — O(log n) time, O(1) space
- * Requires the input array to be sorted in ascending order.
- */
 
-/**
- * Searches for a target value in a sorted array using binary search.
- * @param {number[]} sortedArr  Must be sorted ascending
- * @param {number}   target     Value to find
- * @returns {number} Index of target, or -1 if not found
- */
+
 function binarySearch(sortedArr, target) {
   let low = 0;
   let high = sortedArr.length - 1;
