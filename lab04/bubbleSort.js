@@ -23,5 +23,4 @@ function bubbleSort(arr) {
 const unsorted = [64, 34, 25, 12, 22, 11, 90];
 console.log("Input: ", [...unsorted]);
 console.log("Sorted:", bubbleSort(unsorted));
-
 module.exports = { bubbleSort };
