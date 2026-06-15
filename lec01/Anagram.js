@@ -3,9 +3,7 @@ function validAnagram(str1, str2) {
     return false;
     
   }
-
   let lookup = {};
-
   for (let i = 0; i < str1.length; i++) {
     let char = str1[i];
     lookup[char] = (lookup[char] || 0) + 1;
