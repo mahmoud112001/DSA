@@ -18,6 +18,7 @@ export class BST {
       node.right = this.#insertRec(node.right, value);
     // duplicate → ignore
 
+    
     return node;
   }
 
