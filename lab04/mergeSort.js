@@ -32,5 +32,4 @@ function mergeSort(arr) {
 const unsorted = [38, 27, 43, 3, 9, 82, 10];
 console.log("Input: ", unsorted);
 console.log("Sorted:", mergeSort(unsorted));
-
 module.exports = { mergeSort };
