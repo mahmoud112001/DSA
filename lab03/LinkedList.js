@@ -58,7 +58,6 @@ export class Queue {
     if (this.isEmpty()) return null;
     const value = this.#head.value;
     this.#head = this.#head.next;
-    
     if (!this.#head) this.#tail = null;   // queue became empty
     this.#size--;
     return value;
