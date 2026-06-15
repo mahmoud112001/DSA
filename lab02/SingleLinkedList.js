@@ -32,6 +32,7 @@ class SingleLinkedList {
     else { this.head = null; this.tail = null; }
     this.length--;
     return cur.val;
+    
   }
 
   // Add node to beginning
