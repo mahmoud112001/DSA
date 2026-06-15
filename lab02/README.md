@@ -12,7 +12,6 @@ This folder contains two linked list implementations in JavaScript and a demo fi
     - `pop()` — remove and return the last value.
     - `unshift(val)` — add a value to the beginning.
     - `shift()` — remove and return the first value.
-    
     - `get(index)` — retrieve the node at a given index.
     - `set(index, val)` — update a node value by index.
     - `insert(index, val)` — insert a new node at a given index.
