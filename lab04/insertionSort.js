@@ -20,5 +20,4 @@ function insertionSort(arr) {
 const unsorted = [12, 11, 13, 5, 6];
 console.log("Input: ", [...unsorted]);
 console.log("Sorted:", insertionSort(unsorted));
-
 module.exports = { insertionSort };
