@@ -7,7 +7,6 @@ function binarySearch(sortedArr, target) {
   while (low <= high) {
     const mid = Math.floor((low + high) / 2);
     const midValue = sortedArr[mid];
-
     if (midValue === target) return mid;
     if (midValue < target) low = mid + 1;
     else high = mid - 1;
