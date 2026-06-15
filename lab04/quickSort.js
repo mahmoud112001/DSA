@@ -33,5 +33,4 @@ function quickSort(arr) {
 const unsorted = [10, 80, 30, 90, 40, 50, 70];
 console.log("Input: ", [...unsorted]);
 console.log("Sorted:", quickSort(unsorted));
-
 module.exports = { quickSort };
