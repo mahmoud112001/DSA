@@ -32,7 +32,6 @@ class DoubleLinkedList {
     this.length--;
     return val;
   }
-
   // Add node to beginning
   unshift(val) {
     const node = new DLLNode(val);
